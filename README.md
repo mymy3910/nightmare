@@ -5,15 +5,17 @@
 *************
 　項目名　 
 *************
-//公演中止項目
-・number_form         //各公演所持チケット枚数
-・ticket_total_number //合計所持チケット枚数
-・ticket_total_price  //合計支払い済み金額
+【公演中止項目】
 
-//払い戻し・返礼品項目
-・number_form_return  //返礼品申し込み数
-・return_total_price  //合計返礼品申し込み額（ナイトメアへのお布施）
-・refund_total_price　//払い戻し金額（自分へのお布施）
+・number_form         　各公演所持チケット枚数
+・ticket_total_number 　合計所持チケット枚数
+・ticket_total_price  　合計支払い済み金額
+
+【払い戻し・返礼品項目】
+
+・number_form_return  　返礼品申し込み数
+・return_total_price  　合計返礼品申し込み額（ナイトメアへのお布施）
+・refund_total_price　　払い戻し金額（自分へのお布施）
 
 *************
 　処理手順  
