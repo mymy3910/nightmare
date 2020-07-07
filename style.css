@@ -1,0 +1,143 @@
+body{
+  background-color: black;
+  text-align: center; 
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  color: white;
+}
+.container{
+  display: inline-flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ticket_count{
+ margin: 0px 30px;
+}
+table{
+ margin-left: auto;
+ margin-right: auto;
+ background-color: white;
+ color: black;
+ text-align: left;
+}
+table tr .tour_title{
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.textbox{
+  width: 15px;
+  padding:0px 2px;
+  text-align: right;
+}
+.hitsugi{
+  color:red;
+}
+.ruka{
+  color: pink;
+}
+.ni-ya{
+  color: blue;
+}
+.sakito{
+  color: black;
+}
+.yomi{
+ color: yellow;
+}
+.btn{
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 0px;
+}
+.btn:hover{
+  background-color: transparent;
+  border: solid 2px black;
+  background-color: grey !important;
+  color: black;
+}
+#ticket_total_number{
+  width: 40px;
+  text-align: center;
+  padding: 0px 5px;
+}
+#ticket_total_price{
+  width: 70px;
+  text-align: center;
+  padding:0px;
+}
+
+/*払い戻し*/
+.refund_count{
+  margin: 0px 30px;
+}
+.result{
+  border-top: black solid 5px;
+  margin: 0px;
+  width: 100%;
+}
+#return_total_price{
+  width: 70px;
+  text-align: center;
+  padding: 0px 5px;
+}
+#refund_total_price{
+  width: 70px;
+  text-align: center;
+  padding: 0px 5px;
+  color: red;
+  font-weight: bold;
+}
+
+
+@media(max-width:480px){
+table{
+   width: 100%;
+   margin: 0px;
+}
+.container{
+ display: block;
+ font-size: small;
+ width: 100%;
+}
+h1{
+  white-space: nowrap;
+  font-size: 23px;
+}
+.ticket_count{
+  margin: 10px 0px 20px 0px;
+}
+.textbox{
+  width: 20px;
+  padding:0px;
+  text-align: right;
+}
+table td{
+  padding: 0px;
+  text-align: left;
+}
+.tour_title{
+  text-align: center;
+}
+.refund_count{
+  margin: 10px 0px 20px 0px;
+}
+.refund_count table tbody tr td .count{
+  align-items: center;
+}
+.btn{
+  width: 50%;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: black;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 5px;
+}
+}

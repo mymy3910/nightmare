@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Nightmare</title>
+</head>
+<body>
+  <h1>Nightmere公演中止・払い戻し</h1>
+<div class="container">
+    <div class="ticket_count">
+    <table>
+      <tbody>
+      <tr>
+        <td class="tour_title" colspan="4">NIGHTMARE　FC LIMITED LIVE 2020</td>
+      </tr>
+      <tr>
+        <td>2020年3月7日(土) 仙台・MACANA</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年3月9日(月) 札幌・ペニーレーン24</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年3月20日(金) 東京・STUDIO COAST</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td  class="tour_title"  colspan="4">NIGHTMARE　BIRTHDAY LIVE 2020</td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-heart hitsugi"></i> 2020年3月5日(木) 仙台PIT</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-heart ruka"></i> 2020年6月9日(火) KT ZeppYokohama</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-heart ni-ya"></i> 2020年6月23日(火) 川崎 CLUBCITTA'</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-heart sakito"></i> 2020年6月29日(月) Zepp DiverCity</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-heart yomi"></i> 2020年7月14日(火) 仙台 GIGS</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td  class="tour_title"  colspan="4">NIGHTMARE　TOUR 2020</td>
+      </tr>
+      <tr>
+        <td>2020年5月17日(日) 仙台・CLUB JUNK BOX</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年5月19日(火) 札幌・cube garden</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年5月20日(水) 札幌・cube garden</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年5月29日(金) 大阪・BIG CAT</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年5月31日(日) 岡山・CRAZYMAMA KINGDOM</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月5日(金) 福岡・DRUM LOGOS</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月7日(日) 広島・BLUELIVE HIROSIMA</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月13日(土) 長野・CLUB JUNK BOX</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月14日(日) 金沢・Eight Hall</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月20日(土) 高松・オリーブホール</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月21日(日) 松山・サロンキティ</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年6月25日(木) 名古屋・Zepp Nagoya</td>
+        <td><input type="text"  class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+      <tr>
+        <td>2020年7月16日(木) 東京・STUDIO COAST</td>
+        <td><input type="text" class="textbox" maxlength="1" id="number_form"></td>
+      </tr>
+    </tbody>
+    </table>
+    <table class="result">
+      <tr>
+        <td class="tour_title" width="20%" >合計枚数</td>
+        <td width="30%" style="text-align: center;"><input type="text" id="ticket_total_number"> 枚 </td>      
+        <td class="tour_title" width="20%" >支払済額</td>
+        <td width="30%" style="text-align: center;"><input type="text" id="ticket_total_price"> 円 </td>
+      </tr>
+    </table>
+   </div>
+   <!--ここから返礼品-->
+   <div class="refund_count">
+      <table > 
+        <tbody>
+          <tr>
+            <td class="tour_title" colspan="2">返礼品</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-heart yomi"></i> ワイドチェキ5枚セット（1枚YOMIサイン入り）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-heart hitsugi"></i> ワイドチェキ5枚セット（1枚柩サイン入り）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-heart sakito"></i> ワイドチェキ5枚セット（1枚咲人サイン入り）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-heart ni-ya"></i> ワイドチェキ5枚セット（1枚Ni~yaサイン入り）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-heart ruka"></i> ワイドチェキ5枚セット（1枚RUKAサイン入り）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td>CDプレゼント（未発表曲1曲入り予定）</td>
+            <td><input type="text"  class="textbox" maxlength="1" id="number_form_return"></td>
+          </tr>
+          <tr>
+            <td align="right" colspan="2" class="count"><input type="button" value="計算する" class="btn" id="ticket_count_btn"></td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="result">
+        <tr>
+          <td class="tour_title" width="20%" >返礼品額</td>
+          <td width="30%" style="text-align: center;"><input type="text" id="return_total_price"> 円 </td>      
+          <td class="tour_title" width="20%" style="background-color: red;">返金額</td>
+          <td width="30%" style="text-align: center;"><input type="text" id="refund_total_price"> 円 </td>
+        </tr>
+      </table>
+   </div>
+</div>
+</body>
+</html>
